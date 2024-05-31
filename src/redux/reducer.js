@@ -3,8 +3,8 @@ import { createSlice } from "@reduxjs/toolkit";
  const propertiesReducer = createSlice({
     name: "properties",
     initialState: [],
-    // reducers: {
-    // },
+    reducers: {
+    },
 
 }); 
 
