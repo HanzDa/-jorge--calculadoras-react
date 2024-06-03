@@ -1,11 +1,12 @@
 import { createSlice } from "@reduxjs/toolkit";
 
- const propertiesReducer = createSlice({
+const propertiesSlice = createSlice({
     name: "properties",
     initialState: [],
     reducers: {
-    },
-
-}); 
-
-export default propertiesReducer
+      // Otros casos de reducer...
+    }
+  });
+  
+  
+  export default propertiesSlice.reducer;
